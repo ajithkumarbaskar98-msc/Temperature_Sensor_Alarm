@@ -1,0 +1,43 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/Ajithkumar Baskar/Documents/Embedded/Project2/include",
+                "C:/Users/Ajithkumar Baskar/Documents/Embedded/Project2/src",
+                "C:/Users/Ajithkumar Baskar/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include",
+                "C:/Users/Ajithkumar Baskar/.platformio/packages/framework-cmsis-stm32l4/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/Ajithkumar Baskar/Documents/Embedded/Project2/include",
+                    "C:/Users/Ajithkumar Baskar/Documents/Embedded/Project2/src",
+                    "C:/Users/Ajithkumar Baskar/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include",
+                    "C:/Users/Ajithkumar Baskar/.platformio/packages/framework-cmsis-stm32l4/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60119",
+                "STM32L4",
+                "STM32L432xx",
+                "F_CPU=80000000L",
+                ""
+            ],
+            "compilerPath": "C:/Users/Ajithkumar Baskar/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
